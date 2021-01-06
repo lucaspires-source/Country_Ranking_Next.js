@@ -1,11 +1,17 @@
 import Layout from "../components/Layout/Layout";
+import SearchInput from "../components/SearchInput/SearchInput";
 
 export default function Home({countries}) {
   console.log(countries)
   return (
+    <>
       <Layout>
         <div>Found {countries.length} Countries </div>
+        
       </Layout>
+
+      <SearchInput/>
+    </>  
   )
 }
 
