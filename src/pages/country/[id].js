@@ -1,7 +1,15 @@
   
 import { useEffect, useState } from "react";
 import Layout from "../../components/Layout/Layout";
-import styles from "./country.module.css";
+import styles from "./Country.module.css";
+
+const getCountry = async (id) => {
+    const res = await fetch(`https://restcountries.eu/rest/v2/alpha/${id}`);
+  
+    const country = await res.json();
+  
+    return country;
+  };
 
 const Country = ({ country }) => {
     const [borders, setBorders] = useState([]);
