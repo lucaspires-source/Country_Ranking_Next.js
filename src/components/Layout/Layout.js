@@ -1,5 +1,6 @@
 import Head from "next/head";
 import styles from "./Layout.module.css";
+import Link from 'next/link'
 const Layout = ({ children,title ="World Ranks" }) => {
   return (
     <div className={styles.container}>
@@ -8,6 +9,7 @@ const Layout = ({ children,title ="World Ranks" }) => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <header className={styles.header}>
+        <Link href="/">
         <svg
           width="175"
           height="24"
@@ -33,6 +35,7 @@ const Layout = ({ children,title ="World Ranks" }) => {
           />
           <rect y="4" width="7.33333" height="4.4" rx="2" fill="#21B6B7" />
         </svg>
+        </Link>
       </header>
       <main className={styles.main}>{children}</main>
 
