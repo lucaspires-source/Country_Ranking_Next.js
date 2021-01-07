@@ -1,4 +1,13 @@
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+
+This is a fully responsive application made with next.js and material-ui based on 
+Thu Nghiem tutorial  it´s a country information app made using REST Countries API (https://restcountries.eu/)
+
+
+Checkout the final version of the project here:https://test-five-navy.vercel.app/.
 
 ## Getting Started
 
