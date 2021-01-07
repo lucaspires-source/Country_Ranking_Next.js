@@ -1,4 +1,18 @@
-.counts{
-    margin:12px 0;
-    color:var(--text-color-secondary)
-    }
+.counts {
+  margin: 12px ;
+  color: var(--text-color-secondary);
+}
+
+.inputContainer{
+  margin-bottom: 40px;
+}
+@media screen and (min-width: 720px) {
+  .inputContainer {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .input {
+    flex: 1;
+  }
+}

@@ -21,3 +21,14 @@
   font-size: 0.75rem;
   margin-top: 32px;
 }
+.themeSwitch{
+  border: none;
+  background-color: transparent;
+  padding: 0;
+
+  color: var(text-secondary);
+  margin-left: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

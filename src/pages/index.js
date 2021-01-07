@@ -18,16 +18,19 @@ export default function Home({ countries }) {
     setKeyWord(e.target.value.toLowerCase());
   };
   return (
-    <>
+
       <Layout>
-        <div className={styles.counts}>Found {countries.length} Countries </div>
-        <SearchInput
-          placeholder="Filter By Name, Region or Subregion"
-          onChange={onInputChange}
-        />
+        <div className={styles.inputContainer}>
+          <div className={styles.input}>
+            <SearchInput
+              placeholder="Filter By Name, Region or Subregion"
+              onChange={onInputChange}
+          />
+          </div>
+        </div>
         <CountryTable countries={filteredCountries} />
       </Layout>
-    </>
+
   );
 }
 

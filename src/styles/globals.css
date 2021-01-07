@@ -15,7 +15,15 @@
 
 }
 
+[data-theme="dark"]{
+  --text-color:#124a63;
+  --text-secondary:#b3c5cd;
+  --primary-color:#21b6b7;
+  --background-color:#252329;
+  --background-color-dark:#3c393f;
+  --background-color-light:#120f13;
 
+}
 html,
 body {
   padding: 0;
