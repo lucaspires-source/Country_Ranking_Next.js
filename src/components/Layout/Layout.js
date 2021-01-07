@@ -64,7 +64,7 @@ const Layout = ({ children,title ="World Ranks" }) => {
       </header>
       <main className={styles.main}>{children}</main>
 
-      <footer className={styles.footer}>Made by Lucas Ribeiro based on project by Thu Nghiem @devchallenges.io</footer>
+      <footer className={styles.footer}>Made by Lucas Ribeiro Pires based on project by Thu Nghiem @devchallenges.io</footer>
     </div>
   );
 };
